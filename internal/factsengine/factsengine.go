@@ -34,6 +34,7 @@ func NewFactsEngine(agentID, factsEngineService string) *FactsEngine {
 			gatherers.SystemDGathererName:        gatherers.NewSystemDGatherer(),
 			gatherers.SBDConfigGathererName:      gatherers.NewSBDGathererWithDefaultConfig(),
 			gatherers.VerifyPasswordGathererName: gatherers.NewDefaultPasswordGatherer(),
+			gatherers.SapHostCtrlGathererName:    gatherers.NewDefaultSapHostCtrlGatherer(),
 		},
 		pluginLoaders: NewPluginLoaders(),
 	}

@@ -368,6 +368,7 @@ func (suite *FactsEngineTestSuite) TestFactsEngineGetGatherersListNative() {
 		"systemd",
 		"sbd_config",
 		"verify_password",
+		"saphostctrl",
 	}
 
 	suite.ElementsMatch(expectedGatherers, gatherers)

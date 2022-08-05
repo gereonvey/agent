@@ -1,4 +1,4 @@
-package gatherers
+package gatherers // nolint:dupl
 
 import (
 	"errors"
