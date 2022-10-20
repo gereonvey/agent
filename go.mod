@@ -5,7 +5,7 @@ go 1.18
 require (
 	github.com/coreos/go-systemd/v22 v22.3.2
 	github.com/google/uuid v1.3.0
-	github.com/hashicorp/go-hclog v1.2.2
+	github.com/hashicorp/go-hclog v1.3.1
 	github.com/hashicorp/go-plugin v1.4.4
 	github.com/hooklift/gowsdl v0.5.0
 	github.com/mitchellh/go-homedir v1.1.0
@@ -25,13 +25,17 @@ require (
 )
 
 require (
+	github.com/hashicorp/go-envparse v0.1.0
+	google.golang.org/protobuf v1.28.1
+)
+
+require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/godbus/dbus/v5 v5.0.4 // indirect
 	github.com/golang/protobuf v1.5.2 // indirect
-	github.com/hashicorp/go-envparse v0.1.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/hashicorp/yamux v0.0.0-20180604194846-3520598351bb // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
@@ -63,7 +67,6 @@ require (
 	golang.org/x/xerrors v0.0.0-20220517211312-f3a8303e98df // indirect
 	google.golang.org/genproto v0.0.0-20220519153652-3a47de7e79bd // indirect
 	google.golang.org/grpc v1.46.2 // indirect
-	google.golang.org/protobuf v1.28.1 // indirect
 	gopkg.in/check.v1 v1.0.0-20200227125254-8fa46927fb4f // indirect
 	gopkg.in/ini.v1 v1.66.4 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
